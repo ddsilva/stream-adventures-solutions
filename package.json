@@ -1,0 +1,12 @@
+{
+  "name": "stream-adventures-solutions",
+  "version": "1.0.0",
+  "description": "Solutions for stream-adventures course",
+  "main": "index.js",
+  "repository": "git@github.com:ddsilva/stream-adventures-solutions.git",
+  "author": "Daniel Silva <daniel5055@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "through2": "^2.0.3"
+  }
+}
