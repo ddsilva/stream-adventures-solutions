@@ -1,11 +1,4 @@
-const through2 = require('through2')
-
-const upperCb = function (chunk, _, next) {
-  this.push(chunk.toString().toUpperCase())
-  next()
-}
-
-const upperStream = through2(upperCb)
+const upperStream = require('./utils/upper-stream')
 
 process.stdin
   .pipe(upperStream)
